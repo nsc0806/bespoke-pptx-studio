@@ -25,6 +25,9 @@ Follow strict **database targeting** and **tool priority** to maximize theoretic
 | **Tactile Backgrounds (Paper, Linen, Stone, Parchment)** | Wikimedia Commons, Unsplash, Pexels | Search macro surface textures (`"washi paper texture warm"`, `"linen canvas macro"`, `"terracotta plaster texture"`), then pair with Sanzo Wada overlay transparency. |
 | **Scientific / Technical Figures** | Wikimedia Commons, NASA Images, OpenStax, arXiv / PubMed Central open figures | Prefer clean schematic plates or real observatory/lab photography over cartoonish vector icons. |
 
+### Light / Scientific Deck Background Rule
+- For decks with white-background anatomical or scientific diagrams, **never** fall back to blank solid white (`#ffffff`). Pair a searched light fine-grain paper, linen, or parchment texture with a soft Sanzo Wada veil (`overlay_transparency: 0.40–0.55`) so diagrams blend harmoniously while preserving an authentic tactile background.
+
 ### Image Validation Checklist Before Embedding
 - Minimum width `1600 px` (ideal `>= 1920 px`) for full-bleed backgrounds; minimum `800 px` for split-panel photos.
 - Verify downloaded file size (`> 20 KB`) and valid image format (`.jpg`, `.jpeg`, `.png`) before passing to `build_deck.ps1`.
@@ -36,4 +39,4 @@ Follow strict **database targeting** and **tool priority** to maximize theoretic
 
 - **Peer-Reviewed & Academic**: `OpenAlex` (`api.openalex.org`), `arXiv`, `PubMed`, `Semantic Scholar`
 - **Encyclopedic & Historical Reference**: `Encyclopaedia Britannica`, `UNESCO`, national museum archives, official statistical agencies (`World Bank`, `Eurostat`, `Stat.gov.az`)
-- **Rule**: Cite exact figures, years, and authors in subtle slide footnotes (`10.5–12 pt`) when presenting empirical claims.
+- **Rule**: Verify all figures, dates, and authors against these sources, and consolidate all citations cleanly on a dedicated **References** slide at the end (`>= 15 pt`) instead of placing tiny footnotes on content slides.

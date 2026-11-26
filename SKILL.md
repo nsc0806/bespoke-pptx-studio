@@ -53,8 +53,9 @@ Wait for user confirmation before researching full content or generating `.pptx`
 3. **References Only at the End**: Never clutter content slides with tiny captions or source footnotes under images. Consolidate all citations cleanly on a dedicated **References / İstifadə Olunmuş Mənbələr** slide near the end.
 4. **Mandatory Closing Slide**: Always conclude the deck with a clean, dedicated closing slide (e.g., **"Diqqətinizə görə təşəkkürlər!"** / **"Təşəkkürlər"**).
 5. **Visual Unity (Zero Clashing Blocks)**: Never drop jarring high-contrast boxes onto mismatched backgrounds (such as harsh dark boxes on light slides or bordered white boxes on dark slides). Integrate diagrams seamlessly onto a cohesive canvas.
-6. **Consistent Slide-to-Slide Grid**: Maintain steady, predictable coordinates for slide titles, text columns, and images from slide to slide instead of jumping layouts arbitrarily left and right.
-7. **Ban Template Clichés & Hallucinations**: Zero purple-blue neon gradients, zero 3-card icon grids, zero Corporate-Memphis vectors, and zero fabricated statistics. Build natively in PowerPoint COM.
+6. **Never Fall Back to Blank Solid White (`#ffffff`) Backgrounds**: Fixing diagram integration or visual unity MUST NEVER remove the custom-searched background. Always preserve an authentic, custom-searched background (e.g., fine cotton/watercolor paper grain, linen, parchment, or domain-matched atmospheric photography) paired with a calibrated Sanzo Wada tint overlay across all slides so the deck stays tactile, unified, and unmistakably bespoke.
+7. **Consistent Slide-to-Slide Grid**: Maintain steady, predictable coordinates for slide titles, text columns, and images from slide to slide instead of jumping layouts arbitrarily left and right.
+8. **Ban Template Clichés & Hallucinations**: Zero purple-blue neon gradients, zero 3-card icon grids, zero Corporate-Memphis vectors, and zero fabricated statistics. Build natively in PowerPoint COM.
 
 ---
 
