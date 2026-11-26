@@ -1,0 +1,7 @@
+*.pptx
+*.png
+qa_pngs/
+tmp/
+scratch/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,317 @@
+{
+  "source": "https://sanzo-wada.dmbk.io/ (A Dictionary of Color Combinations by Sanzo Wada)",
+  "palettes": [
+    {
+      "id": 26,
+      "mood": "Editorial Warm",
+      "color_count": 2,
+      "colors": [
+        { "name": "Golden Yellow", "hex": "#fa9442" },
+        { "name": "Pale Raw Umber", "hex": "#5e4017" }
+      ],
+      "roles": {
+        "background": "#5e4017",
+        "surface": "#fcf7ef",
+        "text_primary": "#fcf7ef",
+        "text_muted": "#e5d5bf",
+        "accent": "#fa9442",
+        "overlay_hex": "#5e4017",
+        "overlay_transparency": 0.35
+      }
+    },
+    {
+      "id": 185,
+      "mood": "Editorial Warm",
+      "color_count": 3,
+      "colors": [
+        { "name": "Light Brown Drab", "hex": "#b08699" },
+        { "name": "Etruscan Red", "hex": "#c9303e" },
+        { "name": "Pale Lemon Yellow", "hex": "#fff59e" }
+      ],
+      "roles": {
+        "background": "#fff59e",
+        "surface": "#b08699",
+        "text_primary": "#23191e",
+        "text_muted": "#5c454f",
+        "accent": "#c9303e",
+        "overlay_hex": "#fff59e",
+        "overlay_transparency": 0.25
+      }
+    },
+    {
+      "id": 246,
+      "mood": "Editorial Warm",
+      "color_count": 4,
+      "colors": [
+        { "name": "Corinthian Pink", "hex": "#ffa6d9" },
+        { "name": "Brick Red", "hex": "#a32100" },
+        { "name": "Sulpher Yellow", "hex": "#f5f5b8" },
+        { "name": "Cinnamon Buff", "hex": "#ffbf6e" }
+      ],
+      "roles": {
+        "background": "#f5f5b8",
+        "surface": "#ffbf6e",
+        "text_primary": "#2d1208",
+        "text_muted": "#6e311d",
+        "accent": "#a32100",
+        "secondary_accent": "#ffa6d9",
+        "overlay_hex": "#f5f5b8",
+        "overlay_transparency": 0.22
+      }
+    },
+    {
+      "id": 2,
+      "mood": "Dark / Dramatic",
+      "color_count": 2,
+      "colors": [
+        { "name": "Yellow Orange", "hex": "#ff8c00" },
+        { "name": "Dark Tyrian Blue", "hex": "#0d2b52" }
+      ],
+      "roles": {
+        "background": "#0d2b52",
+        "surface": "#153d70",
+        "text_primary": "#f7f4ee",
+        "text_muted": "#b8cadf",
+        "accent": "#ff8c00",
+        "overlay_hex": "#0d2b52",
+        "overlay_transparency": 0.30
+      }
+    },
+    {
+      "id": 144,
+      "mood": "Dark / Dramatic",
+      "color_count": 3,
+      "colors": [
+        { "name": "Rosolanc Purple", "hex": "#b319ab" },
+        { "name": "Orange", "hex": "#ff5200" },
+        { "name": "Black", "hex": "#000000" }
+      ],
+      "roles": {
+        "background": "#000000",
+        "surface": "#161117",
+        "text_primary": "#f7f3f0",
+        "text_muted": "#cfc4cd",
+        "accent": "#ff5200",
+        "secondary_accent": "#b319ab",
+        "overlay_hex": "#000000",
+        "overlay_transparency": 0.35
+      }
+    },
+    {
+      "id": 245,
+      "mood": "Dark / Dramatic",
+      "color_count": 4,
+      "colors": [
+        { "name": "Carmine Red", "hex": "#a10b2b" },
+        { "name": "Oil Green", "hex": "#6ea900" },
+        { "name": "Dark Tyrian Blue", "hex": "#0d2b52" },
+        { "name": "Slate Color", "hex": "#1b3644" }
+      ],
+      "roles": {
+        "background": "#0d2b52",
+        "surface": "#1b3644",
+        "text_primary": "#f5f4f0",
+        "text_muted": "#b6c7d1",
+        "accent": "#a10b2b",
+        "secondary_accent": "#6ea900",
+        "overlay_hex": "#0d2b52",
+        "overlay_transparency": 0.32
+      }
+    },
+    {
+      "id": 67,
+      "mood": "Academic / Cool",
+      "color_count": 2,
+      "colors": [
+        { "name": "Olympic Blue", "hex": "#4f8fe6" },
+        { "name": "Dark Tyrian Blue", "hex": "#0d2b52" }
+      ],
+      "roles": {
+        "background": "#0d2b52",
+        "surface": "#f4f7fb",
+        "text_primary": "#f4f7fb",
+        "text_muted": "#bfd2eb",
+        "accent": "#4f8fe6",
+        "overlay_hex": "#0d2b52",
+        "overlay_transparency": 0.30
+      }
+    },
+    {
+      "id": 139,
+      "mood": "Academic / Cool",
+      "color_count": 3,
+      "colors": [
+        { "name": "Salvia Blue", "hex": "#96bfe6" },
+        { "name": "Deep Indigo", "hex": "#000831" },
+        { "name": "Neutral Gray", "hex": "#b5d1cc" }
+      ],
+      "roles": {
+        "background": "#000831",
+        "surface": "#b5d1cc",
+        "text_primary": "#f6f8fb",
+        "text_muted": "#b5d1cc",
+        "accent": "#96bfe6",
+        "overlay_hex": "#000831",
+        "overlay_transparency": 0.32
+      }
+    },
+    {
+      "id": 218,
+      "mood": "Academic / Cool",
+      "color_count": 3,
+      "colors": [
+        { "name": "Helvetia Blue", "hex": "#0057ba" },
+        { "name": "Grayish Lavender - A", "hex": "#b8b8ff" },
+        { "name": "Deep Violet / Plumbeous", "hex": "#5c7287" }
+      ],
+      "roles": {
+        "background": "#f6f7fc",
+        "surface": "#b8b8ff",
+        "text_primary": "#16212c",
+        "text_muted": "#5c7287",
+        "accent": "#0057ba",
+        "overlay_hex": "#5c7287",
+        "overlay_transparency": 0.25
+      }
+    },
+    {
+      "id": 10,
+      "mood": "Botanical / Earth",
+      "color_count": 2,
+      "colors": [
+        { "name": "Cinnamon Rufous", "hex": "#c2612c" },
+        { "name": "Dark Citrine", "hex": "#7e8743" }
+      ],
+      "roles": {
+        "background": "#f7f3ec",
+        "surface": "#7e8743",
+        "text_primary": "#262319",
+        "text_muted": "#5b5c3c",
+        "accent": "#c2612c",
+        "overlay_hex": "#7e8743",
+        "overlay_transparency": 0.30
+      }
+    },
+    {
+      "id": 121,
+      "mood": "Botanical / Earth",
+      "color_count": 3,
+      "colors": [
+        { "name": "Brown", "hex": "#6c2b11" },
+        { "name": "Ochraceous Salmon", "hex": "#d99e73" },
+        { "name": "Lincoln Green", "hex": "#405416" }
+      ],
+      "roles": {
+        "background": "#405416",
+        "surface": "#d99e73",
+        "text_primary": "#fbf6ef",
+        "text_muted": "#e8d6c5",
+        "accent": "#d99e73",
+        "secondary_accent": "#6c2b11",
+        "overlay_hex": "#405416",
+        "overlay_transparency": 0.35
+      }
+    },
+    {
+      "id": 243,
+      "mood": "Botanical / Earth",
+      "color_count": 4,
+      "colors": [
+        { "name": "Raw Sienna", "hex": "#b85e00" },
+        { "name": "Ivory Buff", "hex": "#ebd999" },
+        { "name": "Olive Green", "hex": "#58771e" },
+        { "name": "Slate Color", "hex": "#1b3644" }
+      ],
+      "roles": {
+        "background": "#ebd999",
+        "surface": "#1b3644",
+        "text_primary": "#1b3644",
+        "text_muted": "#4b5d5e",
+        "accent": "#b85e00",
+        "secondary_accent": "#58771e",
+        "overlay_hex": "#1b3644",
+        "overlay_transparency": 0.28
+      }
+    },
+    {
+      "id": 6,
+      "mood": "Modern Contrast",
+      "color_count": 2,
+      "colors": [
+        { "name": "Grenadine Pink", "hex": "#ff616b" },
+        { "name": "Deep Indigo", "hex": "#000831" }
+      ],
+      "roles": {
+        "background": "#000831",
+        "surface": "#101948",
+        "text_primary": "#f9f7f6",
+        "text_muted": "#bfc5e0",
+        "accent": "#ff616b",
+        "overlay_hex": "#000831",
+        "overlay_transparency": 0.30
+      }
+    },
+    {
+      "id": 241,
+      "mood": "Modern Contrast",
+      "color_count": 4,
+      "colors": [
+        { "name": "Red Orange", "hex": "#e81900" },
+        { "name": "Pale Lemon Yellow", "hex": "#fff59e" },
+        { "name": "Isabella Color", "hex": "#c3a55c" },
+        { "name": "Dark Medici Blue", "hex": "#417777" }
+      ],
+      "roles": {
+        "background": "#fff59e",
+        "surface": "#417777",
+        "text_primary": "#1b2828",
+        "text_muted": "#417777",
+        "accent": "#e81900",
+        "secondary_accent": "#c3a55c",
+        "overlay_hex": "#417777",
+        "overlay_transparency": 0.28
+      }
+    },
+    {
+      "id": 223,
+      "mood": "Muted Pastel",
+      "color_count": 3,
+      "colors": [
+        { "name": "Light Brown Drab", "hex": "#b08699" },
+        { "name": "Ochraceous Salmon", "hex": "#d99e73" },
+        { "name": "Turquoise Green", "hex": "#b5ffc2" }
+      ],
+      "roles": {
+        "background": "#2b2126",
+        "surface": "#b08699",
+        "text_primary": "#fbf9f7",
+        "text_muted": "#e7d9de",
+        "accent": "#b5ffc2",
+        "secondary_accent": "#d99e73",
+        "overlay_hex": "#2b2126",
+        "overlay_transparency": 0.35
+      }
+    },
+    {
+      "id": 292,
+      "mood": "Muted Pastel",
+      "color_count": 4,
+      "colors": [
+        { "name": "Pale Lemon Yellow", "hex": "#fff59e" },
+        { "name": "Pinkish Cinnamon", "hex": "#f2ad78" },
+        { "name": "Isabella Color", "hex": "#c3a55c" },
+        { "name": "Ecru", "hex": "#c0b490" }
+      ],
+      "roles": {
+        "background": "#faf5e6",
+        "surface": "#c0b490",
+        "text_primary": "#2d281c",
+        "text_muted": "#665c45",
+        "accent": "#f2ad78",
+        "secondary_accent": "#c3a55c",
+        "overlay_hex": "#c0b490",
+        "overlay_transparency": 0.25
+      }
+    }
+  ]
+}
