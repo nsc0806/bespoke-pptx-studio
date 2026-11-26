@@ -6,20 +6,18 @@
 
 ## English
 
-An Antigravity agent skill for building **bespoke, non-generic PowerPoint (`.pptx`) presentations** powered by:
+An Antigravity agent skill for building **bespoke, human-designed PowerPoint (`.pptx`) presentations** powered by:
 
-- **Authentic Sanzo Wada Color Harmonies**: 16 verified 2-, 3-, and 4-color palettes extracted from *A Dictionary of Color Combinations* (`sanzo-wada.dmbk.io`).
-- **Custom-Searched Real Backgrounds & Imagery**: Editorial textures, archival museum plates, and real photography paired with Sanzo Wada color overlays instead of generic AI clipart or purple gradients.
-- **Anti-AI-Slop Rules (Reddit Community-Backed)**: Breaks uniform slide rhythm, eliminates 3-card icon clichés, enforces one dominant narrative hook per slide, and prohibits hallucinated metrics.
-- **Subject-Adaptive Azerbaijani-Safe Typography**: Discipline-specific font pairings tested for full Azerbaijani diacritics (`Ə, ə, Ğ, ğ, İ, ı, Ö, ö, Ş, ş, Ü, ü, Ç, ç`).
-- **Native PowerPoint COM Engine (`scripts/build_deck.ps1`)**: Builds `.pptx` directly via desktop Microsoft PowerPoint COM—supporting native **Morph (`!!`)**, **Merge Shapes** (`Union`, `Intersect`, `Subtract`, `Combine`, `Fragment`), dynamic step-by-step **Entrance + Emphasis animations**, and **1920×1080 PNG export** for visual QA.
+- **Authentic Sanzo Wada Color Harmonies**: 16 verified 2-, 3-, and 4-color palettes extracted from *A Dictionary of Color Combinations* (`sanzo-wada.dmbk.io`) applied with calm visual unity (no clashing boxes).
+- **Custom-Searched Real Backgrounds & Imagery**: Editorial textures, archival plates, and verified scientific diagrams integrated cleanly with `fit: "contain"` or `fit: "cover"` support.
+- **Trained Anti-AI-Slop Standards**: Zero tiny `<14 pt` micro-text or AI-sign kickers, clean natural punctuation, consistent slide-to-slide layout grid, consolidated **References** at the end, and a mandatory **Thank You** closing slide.
+- **Eye-Friendly Azerbaijani-Safe Typography**: Discipline-specific font pairings tested for full Azerbaijani diacritics (`Ə, ə, Ğ, ğ, İ, ı, Ö, ö, Ş, ş, Ü, ü, Ç, ç`).
+- **Native PowerPoint COM Engine (`scripts/build_deck.ps1`)**: Builds `.pptx` directly via desktop Microsoft PowerPoint COM—supporting native **Morph (`!!`)**, **Merge Shapes** (`Union`, `Intersect`, `Subtract`, `Combine`, `Fragment`), Slide Show-safe **Entrance + Emphasis animations**, and **1920×1080 PNG export** for visual QA.
 
 ### Installation
 
-Clone or copy into your Antigravity global skills directory:
-
 ```powershell
-git clone <your-repo-url> "$env:USERPROFILE\.gemini\config\skills\bespoke-pptx-studio"
+git clone https://github.com/nsc0806/bespoke-pptx-studio "$env:USERPROFILE\.gemini\config\skills\bespoke-pptx-studio"
 ```
 
 *(Requires Windows + Microsoft PowerPoint desktop installed.)*
@@ -37,10 +35,10 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\build_deck.ps1" `
 
 ## Azərbaycanca
 
-Standart AI şablonlarından tam uzaqlaşan, fərdi və yüksək keyfiyyətli **PowerPoint (`.pptx`)** təqdimatları hazırlayan Antigravity skill-i:
+Standart AI şablonlarından tam uzaqlaşan, insan gözünə təbii və yüksək keyfiyyətli **PowerPoint (`.pptx`)** təqdimatları hazırlayan Antigravity skill-i:
 
-- **Sanzo Wada Rəng Harmoniyası**: `sanzo-wada.dmbk.io` mənbəyindən çıxarılmış 16 orijinal 2, 3 və 4 rəngli palitra.
-- **Xüsusi Axtarılmış Real Fonlar və Vizuallar**: Mövzuya uyğun kağız/kətan teksturaları, muzey arxivləri və real fotolar üzərində Sanzo Wada overlay harmoniyası.
-- **Reddit Tənqidlərinə Əsaslanan Anti-AI-Slop Qaydaları**: Təkrarlanan eyni slayd ritmi, 3-kartlı şablonlar, boş vektorlar və uydurma rəqəmlər qadağandır.
-- **Azərbaycan Əlifbası Dəstəkli Tipoqrafiya**: `Ə, ə, Ğ, ğ, İ, ı, Ö, ö, Ş, ş, Ü, ü, Ç, ç` simvollarını pozmayan fənnə-adaptiv şrift cütləri.
-- **Native PowerPoint COM Mühərriki (`scripts/build_deck.ps1`)**: Birbaşa desktop PowerPoint vasitəsilə **Morph (`!!`)**, **Merge Shapes**, addım-addım **dinamik animasiyalar** və **PNG vizual QA** ixracı yaradır.
+- **Sanzo Wada Rəng Harmoniyası**: `sanzo-wada.dmbk.io` mənbəyindən çıxarılmış 16 orijinal 2, 3 və 4 rəngli palitra — təzadlı qutu yığını olmadan vahid vizual bütövlük.
+- **Xüsusi Axtarılmış Real Fonlar və Elmi Vizuallar**: Mövzuya uyğun teksturalar, real fotolar və təmiz `fit: "contain"` / `fit: "cover"` diaqram yerləşdirməsi.
+- **Təkmilləşdirilmiş Anti-AI-Slop Qaydaları**: Xırda `<14 pt` "AI-sign" yazıları və başlıq durğu işarələri qadağandır; slaydlarda ardıcıl və sabit yerləşmə sistemi, sonda ayrıca **Mənbələr** və **Təşəkkürlər** slaydı məcburidir.
+- **Azərbaycan Əlifbası Dəstəkli Rahat Tipoqrafiya**: `Ə, ə, Ğ, ğ, İ, ı, Ö, ö, Ş, ş, Ü, ü, Ç, ç` simvollarını pozmayan, gözü yormayan şrift cütləri.
+- **Native PowerPoint COM Mühərriki (`scripts/build_deck.ps1`)**: Birbaşa desktop PowerPoint vasitəsilə **Morph (`!!`)**, **Merge Shapes**, Slide Show rejimində problemsiz işləyən **dinamik animasiyalar** və **PNG vizual QA** ixracı yaradır.

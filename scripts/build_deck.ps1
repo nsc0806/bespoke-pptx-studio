@@ -173,6 +173,38 @@ function Add-CoverImage {
     return $pic
 }
 
+function Add-ContainImage {
+    param(
+        $Slide,
+        [string]$ImagePath,
+        [double]$Left,
+        [double]$Top,
+        [double]$Width,
+        [double]$Height,
+        [string]$Name = ""
+    )
+    if (-not (Test-Path -LiteralPath $ImagePath)) {
+        throw "Image file not found: '$ImagePath'"
+    }
+    $absImg = (Resolve-Path -LiteralPath $ImagePath).Path
+    $pic = $Slide.Shapes.AddPicture($absImg, 0, -1, $Left, $Top, -1, -1)
+    $origW = [double]$pic.Width
+    $origH = [double]$pic.Height
+
+    $scale = [Math]::Min($Width / $origW, $Height / $origH)
+    $pic.LockAspectRatio = -1
+    $pic.Width = [single]($origW * $scale)
+
+    $finalW = [double]$pic.Width
+    $finalH = [double]$pic.Height
+    $pic.Left = [single]($Left + ($Width - $finalW) / 2.0)
+    $pic.Top = [single]($Top + ($Height - $finalH) / 2.0)
+    if (-not [string]::IsNullOrWhiteSpace($Name)) {
+        $pic.Name = $Name
+    }
+    return $pic
+}
+
 function Apply-TextFormatting {
     param($Shape, $El)
     $text = [string](Get-Prop $El "text" "")
@@ -338,6 +370,8 @@ try {
                 if ($fit -eq "stretch") {
                     $absImg = (Resolve-Path -LiteralPath $imgPath).Path
                     $created = $slide.Shapes.AddPicture($absImg, 0, -1, $left, $top, $width, $height)
+                } elseif ($fit -eq "contain") {
+                    $created = Add-ContainImage -Slide $slide -ImagePath $imgPath -Left $left -Top $top -Width $width -Height $height
                 } else {
                     $created = Add-CoverImage -Slide $slide -ImagePath $imgPath -Left $left -Top $top -Width $width -Height $height
                 }
